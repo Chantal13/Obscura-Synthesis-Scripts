@@ -1,0 +1,58 @@
+name: Script Request
+description: Request an automation script for a repetitive in-game task
+labels: ["script request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Want a script to automate something you do repeatedly in game? Fill out the details below. **Pasting game output is required** so we can see exactly what the interaction looks like.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What do you want automated?
+      description: Describe the repetitive task you'd like a script for.
+      placeholder: I want a script that...
+    validations:
+      required: true
+
+  - type: textarea
+    id: game-output
+    attributes:
+      label: Game output
+      description: Paste the raw output from the game showing the full interaction you want scripted. Include the commands you type and the responses from the game.
+      placeholder: |
+        > your command here
+        Game response here
+        > next command
+        Next response
+        ...
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: variations
+    attributes:
+      label: Variations or edge cases
+      description: Are there any variations in the output or steps? For example, does the process change based on success/failure, or different items?
+      placeholder: Sometimes the output says X instead of Y when...
+    validations:
+      required: false
+
+  - type: textarea
+    id: frequency
+    attributes:
+      label: How often do you do this?
+      description: How frequently do you perform this task? This helps us prioritize.
+      placeholder: e.g. Multiple times per session, daily, occasionally
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else that would help us build the script.
+    validations:
+      required: false

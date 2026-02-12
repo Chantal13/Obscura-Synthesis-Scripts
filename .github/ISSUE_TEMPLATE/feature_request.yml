@@ -1,0 +1,59 @@
+name: Feature Request
+description: Suggest a new feature or improvement for the game
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for something new? We'd love to hear it!
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What area does this feature fall under?
+      options:
+        - Class
+        - Skill
+        - Spell
+        - Ability
+        - Area
+        - Integration (e.g. Discord to game chat)
+        - Quality of Life
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      description: A clear description of what you'd like to see added or changed.
+      placeholder: I'd like to see...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Is this related to a frustration or gap in the current game?
+      placeholder: This would help because...
+    validations:
+      required: false
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or references
+      description: Any examples from other games, mockups, or ideas for how it could work.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else you'd like to add.
+    validations:
+      required: false
