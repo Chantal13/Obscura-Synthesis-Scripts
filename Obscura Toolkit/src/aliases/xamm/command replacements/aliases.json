@@ -1,0 +1,23 @@
+[
+       {
+              "name": "score",
+              "isActive": "yes",
+              "regex": "^score$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "group",
+              "isActive": "yes",
+              "regex": "^group$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "gr - group shortcut",
+              "isActive": "yes",
+              "regex": "^gr$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

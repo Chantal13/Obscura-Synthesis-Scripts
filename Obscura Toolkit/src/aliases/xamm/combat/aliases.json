@@ -1,0 +1,23 @@
+[
+       {
+              "name": "kill scan",
+              "isActive": "yes",
+              "regex": "^ks (.+)$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "kill consider",
+              "isActive": "yes",
+              "regex": "^kc (.+)$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Butcher",
+              "isActive": "yes",
+              "regex": "^bb$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

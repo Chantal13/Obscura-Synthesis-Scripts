@@ -1,0 +1,29 @@
+[
+       {
+              "name": "echo_gmcp_data",
+              "isActive": "no",
+              "eventHandlerList": [
+                     "gmcp.char"
+              ],
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "set_gauges",
+              "isActive": "yes",
+              "eventHandlerList": [
+                     "gmcp.char"
+              ],
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "onGmcpRoomInfo",
+              "isActive": "yes",
+              "eventHandlerList": [
+                     "gmcp.room.info"
+              ],
+              "script": "",
+              "isFolder": "no"
+       }
+]

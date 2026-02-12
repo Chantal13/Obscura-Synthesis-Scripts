@@ -1,0 +1,23 @@
+[
+       {
+              "name": "Mend",
+              "isActive": "yes",
+              "regex": "^mend$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Tanning",
+              "isActive": "yes",
+              "regex": "^tt$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Cooking",
+              "isActive": "yes",
+              "regex": "^cc (.+)$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

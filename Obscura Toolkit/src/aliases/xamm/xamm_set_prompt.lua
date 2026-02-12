@@ -1,0 +1,2 @@
+cecho("<white:midnight_blue>Be sure to confirm the change of prompt by typing <green:midnight_blue>Y\n\n")
+send("prompt [XAMM] items %c %C%B[XAMM] weight %w %W%B< %z | %r | ^y%G^N | Status: %I >%B%/< Fighting %E< Tanking %KE%/%B[XAMM] prompt end")

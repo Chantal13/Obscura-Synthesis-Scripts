@@ -1,0 +1,1 @@
+mendAdvance("mended! Equipping...")

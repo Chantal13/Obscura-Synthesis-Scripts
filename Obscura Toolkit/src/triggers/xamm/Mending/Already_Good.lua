@@ -1,0 +1,1 @@
+mendAdvance("already in good condition. Equipping...")

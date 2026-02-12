@@ -1,0 +1,294 @@
+[
+       {
+              "name": "100% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) is in perfect health.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "95% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) has a few small bruises.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "90% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) has a few bruises and scratches.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has a few nicks and scratches.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has large bruises and scratches.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "80% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) has some minor cuts and bruises.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has some minor cuts and nicks.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "70% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) is cut and bruised.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) is cut and bruised heavily.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has huge cuts and is heavily bruised.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "60% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) has a few bloody wounds.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has a few gory wounds.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has a few huge bloody wounds.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "50% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) has some bloody wounds and gashes.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has some gory tears and gashes.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has some huge wounds and gashes.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "40% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) has numerous bloody wounds and gashes.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) has numerous gory tears and gashes.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "30% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) is bleeding badly from lots of wounds.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) is gored badly with lots of tears.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) is bleeding badly from lots of large wounds.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "20% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) is covered in blood.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) is covered in torn slabs of flesh.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) is covered in bloody matted hair.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "10% HP",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) is mortally wounded and will soon die.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) is near to heartless death!$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) is fluttering around dripping blood everywhere!$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+ )is hovering on deaths door!$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(.+) is almost fallen!$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       }
+]

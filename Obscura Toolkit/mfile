@@ -1,0 +1,10 @@
+{
+       "package": "Obscura Toolkit",
+       "title": "Obscura Toolkit - Mudlet package for Obscura Synthesis",
+       "description": "",
+       "version": "1.0.0",
+       "author": "Built on XAMM by Xanthia and cofudlet by cizra",
+       "icon": ".mudlet/Icon/XAMM.jpeg",
+       "dependencies": "",
+       "outputFile": true
+}

@@ -1,0 +1,9 @@
+[
+       {
+              "name": "map",
+              "isActive": "yes",
+              "regex": "^map( +(.*))?$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

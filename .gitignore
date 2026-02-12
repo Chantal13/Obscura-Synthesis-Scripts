@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Muddler build output
+Obscura Toolkit/build/
+Obscura Toolkit/.output

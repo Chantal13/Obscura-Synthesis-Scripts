@@ -1,0 +1,20 @@
+[
+       {
+              "name": "initOnConnect",
+              "isActive": "yes",
+              "eventHandlerList": [
+                     "sysConnectionEvent"
+              ],
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "closeOnDisconnect",
+              "isActive": "yes",
+              "eventHandlerList": [
+                     "sysDisconnectionEvent"
+              ],
+              "script": "",
+              "isFolder": "no"
+       }
+]

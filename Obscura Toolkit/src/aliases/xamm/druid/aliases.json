@@ -1,0 +1,9 @@
+[
+       {
+              "name": "Chant Tracker",
+              "isActive": "yes",
+              "regex": "^CHANT \"(.+)\"$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

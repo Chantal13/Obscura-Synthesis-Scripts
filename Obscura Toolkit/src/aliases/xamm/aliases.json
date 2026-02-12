@@ -1,0 +1,45 @@
+[
+       {
+              "name": "xamm set prompt",
+              "isActive": "yes",
+              "regex": "^xamm set prompt$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "combat",
+              "isActive": "no",
+              "script": "",
+              "isFolder": "yes"
+       },
+       {
+              "name": "command replacements",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "yes"
+       },
+       {
+              "name": "testing_commands",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "yes"
+       },
+       {
+              "name": "cofudlet_mapper",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "yes"
+       },
+       {
+              "name": "crafting",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "yes"
+       },
+       {
+              "name": "druid",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "yes"
+       }
+]

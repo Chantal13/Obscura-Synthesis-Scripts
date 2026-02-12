@@ -1,0 +1,23 @@
+[
+       {
+              "name": "manually trigger initOnConnect",
+              "isActive": "yes",
+              "regex": "^init$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "mudletinfo",
+              "isActive": "yes",
+              "regex": "^mudletinfo$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "about",
+              "isActive": "yes",
+              "regex": "^about$",
+              "script": "",
+              "isFolder": "no"
+       }
+]
